@@ -8,13 +8,14 @@ export default new Vuex.Store({
   state: {
     user: { id: 'abc123', name: 'Patrik Näsström'},
     categories: [
-      'sustainability',
-     'nature', 
-     'animal welfare',
-     'housing',
-     'education',
-     'food',
-     'community'],
+                  'sustainability',
+                  'nature', 
+                  'animal welfare',
+                  'housing',
+                  'education',
+                  'food',
+                  'community'
+                ],
     todos: [
       { id: 1, text: '...', done: true },
       { id: 2, text: '...', done: false },
@@ -26,13 +27,30 @@ export default new Vuex.Store({
   mutations: {
     ADD_EVENT(state, event) {
       state.events.push(event)
+    },
+    SET_EVENTS(state, events) {
+      state.events=events
+      console.log('***SET_EVENT****')
+      console.log(state.events)
     }
   },
   actions: {
     createEvent({ commit }, event) {
-      EventService.postEvent(event)
-      commit('ADD_EVENT', event)
-    }
+      return EventService.postEvent(event).then (() => {
+        commit('ADD_EVENT', event)
+      })
+    },
+    fetchEvents({ commit }) {
+      EventService.getEvents()
+        .then(response => {
+          console.log(response.data)
+          commit('SET_EVENTS', response.data)
+        
+        })
+        .catch(error => {
+          console.log('There was an error:', error.response)
+        })
+      }
   },
   getters: {
     getEventById: state => id => {
