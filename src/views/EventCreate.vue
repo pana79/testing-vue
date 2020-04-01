@@ -68,7 +68,7 @@
               })
           },
         createFreshEventObject() {
-          const user = this.$store.state.user
+          const user = this.$store.state.User.user
           const id = Math.floor(Math.random()*10000000)
 
           return {
