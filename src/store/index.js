@@ -1,13 +1,15 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import EventService from '@/services/EventService.js'
+import EventService from "@/services/EventService.js"
+import * as User from "@/store/modules/User.js"
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
+  modules: {
+    User
+  },
   state: {
-    
-    user: { id: 'abc123', name: 'Patrik Näsström'},
     categories: [
                   'sustainability',
                   'nature', 
@@ -103,6 +105,5 @@ export default new Vuex.Store({
     activeTodosCount: (state, getters) => {
      return state.todos.lenght - getters.doneTodos.length
      }*/
-  },
-  modules: {}
+  }
 });
