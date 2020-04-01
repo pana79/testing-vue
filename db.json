@@ -1,76 +1,166 @@
 {
-    "events": [
-      {
-        "id": 1,
-        "title": "Beach Cleanup",
-        "date": "Aug 28 2018",
-        "time": "10:00",
-        "location": "Daytona Beach",
-        "description": "Let's clean up this beach.",
-        "organizer": "Adam Jahr",
-        "category": "sustainability",
-        "attendees": [
-          {
-            "id": "abc123",
-            "name": "Adam Jahr"
-          },
-          {
-            "id": "def456",
-            "name": "Gregg Pollack"
-          },
-          {
-            "id": "ghi789",
-            "name": "Beth Swanson"
-          },
-          {
-            "id": "jkl101",
-            "name": "Mary Gordon"
-          }
-        ]
+  "events": [
+    {
+      "id": 1,
+      "title": "Beach Cleanup",
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "location": "Daytona Beach",
+      "description": "Let's clean up this beach.",
+      "organizer": "Adam Jahr",
+      "category": "sustainability",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Park Cleanup",
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "We're going to clean up this park.",
+      "organizer": "Adam Jahr",
+      "category": "nature",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pet Adoption Day",
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "Help animals find new homes.",
+      "organizer": "Gregg Pollack",
+      "category": "animal welfare",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 7653132,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
       },
-      {
-        "id": 2,
-        "title": "Park Cleanup",
-        "date": "Nov 12 2018",
-        "time": "12:00",
-        "location": "132 N Magnolia Street, Orlando, Florida",
-        "description": "We're going to clean up this park.",
-        "organizer": "Adam Jahr",
-        "category": "nature",
-        "attendees": [
-          {
-            "id": "ghi789",
-            "name": "Beth Swanson"
-          },
-          {
-            "id": "jkl101",
-            "name": "Mary Gordon"
-          }
-        ]
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
       },
-      {
-        "id": 3,
-        "title": "Pet Adoption Day",
-        "date": "Dec 2 2018",
-        "time": "12:00",
-        "location": "132 N Magnolia Street, Orlando, Florida",
-        "description": "Help animals find new homes.",
-        "organizer": "Gregg Pollack",
-        "category": "animal welfare",
-        "attendees": [
-          {
-            "id": "abc123",
-            "name": "Adam Jahr"
-          },
-          {
-            "id": "ghi789",
-            "name": "Beth Swanson"
-          },
-          {
-            "id": "jkl101",
-            "name": "Mary Gordon"
-          }
-        ]
-      }
-    ]
-  }
+      "title": "Working?",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 5801485,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
+      },
+      "title": "Huset",
+      "description": "städa",
+      "location": "Hemma",
+      "date": "2020-03-13T13:26:00.000Z",
+      "time": "11:00",
+      "attendees": []
+    },
+    {
+      "id": 9090363,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
+      },
+      "title": "ECUtbildning",
+      "description": "FrontEnd",
+      "location": "Västerås",
+      "date": "2020-03-31T14:49:00.000Z",
+      "time": "9:00",
+      "attendees": []
+    },
+    {
+      "id": 635986,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
+      },
+      "title": "Promenad",
+      "description": "utomhus",
+      "location": "Västerås",
+      "date": "2020-04-02T15:34:00.000Z",
+      "time": "12:00",
+      "attendees": []
+    },
+    {
+      "id": 1754126,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik Näsström"
+      },
+      "title": "Middag",
+      "description": "med mariella",
+      "location": "Västerås",
+      "date": "2020-03-28T20:05:00.000Z",
+      "time": "19:00",
+      "attendees": []
+    }
+  ]
+}
