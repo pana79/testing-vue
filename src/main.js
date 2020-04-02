@@ -5,6 +5,7 @@ import store from "./store";
 /************* needed for register global components********** */
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
+import 'nprogress/nprogress.css'
 
 const requireComponent = require.context(
   './components',
