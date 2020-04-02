@@ -1,5 +1,7 @@
 import EventService from "@/services/EventService.js"
 
+export const namespaced = true  //all mutations, actions and getters will be namespced under event to evojed name collisions regarding they are global..
+
 export const state = {
     eventsTotal: 0,
     events: [],
