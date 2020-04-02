@@ -161,6 +161,258 @@
       "date": "2020-03-28T20:05:00.000Z",
       "time": "19:00",
       "attendees": []
+    },
+    {
+      "id": 6984628,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdfasdf",
+      "description": "sadf",
+      "location": "asdf",
+      "date": "2020-04-02T13:28:00.000Z",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 407581,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "Success",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 1109059,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "test",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 5603366,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "Success again",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 529480,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 1232758,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "NU",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 9389334,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "BRA",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 2247992,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "NU IGEN",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 427381,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "Com on!",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 4030475,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "NOW",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 6238336,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 539005,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdfsdaf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 5825913,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 9983438,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdfsadf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }

@@ -1,6 +1,6 @@
 <template>
     <div class="notification-container">
-        <notificationBar
+        <NotificationBar
             v-for="notification in notifications"
             :key="notification.id"
             :notification="notification"/>
@@ -22,7 +22,7 @@ import { mapState } from 'vuex'
 <style scoped>
 .notification-container {
     position: fixed;
-    bottom:0;
-
+    bottom: 0;
+    right:20px;
 }
 </style>

@@ -31,7 +31,7 @@ export const mutations = {
         commit('ADD_EVENT', event)
         const notification = {
           type: 'success',
-          mesage: "Your event has been created!"
+          message: "Your event has been created!"
         }
         dispatch('notification/add', notification, {root:true})
       }).catch(error => {
@@ -47,7 +47,7 @@ export const mutations = {
       EventService.getEvents(perPage, page)
         .then(response => {
          // console.log(response.data)
-         console.log('Total events are ' + response.headers['x-total-count'])
+         //console.log('Total events are ' + response.headers['x-total-count'])
           commit('SET_EVENTS', response.data)
           commit('SET_EVENTS_TOTAL',response.headers['x-total-count'])
         
