@@ -1,4 +1,10 @@
 {
+  "user":{
+    "name": "Patrik Näsström",
+    "email": "patrik@hotmail.com",
+    "password": "pass123"
+
+  },
   "events": [
     {
       "id": 1,
@@ -408,6 +414,186 @@
         "name": "Patrik"
       },
       "title": "asdfsadf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 8024785,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 4452302,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 9746454,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 9787483,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asfd",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 3880751,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 617598,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 7056242,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 7272417,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 462994,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 5220057,
+      "user": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Patrik"
+      },
+      "title": "asdf",
       "description": "",
       "location": "",
       "date": "",
